@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/teacher"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:src="@drawable/teacher" />
+
+            <ImageView
+                android:id="@+id/stu1"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_below="@+id/teacher"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:src="@drawable/stu1" />
+
+            <ImageView
+                android:id="@+id/stu2"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_below="@+id/stu1"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:src="@drawable/stu2" />
+
+            <ImageView
+                android:id="@+id/stu3"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_below="@+id/stu2"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:src="@drawable/stu3" />
+
+            <ImageView
+                android:id="@+id/stu4"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_below="@+id/stu3"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:src="@drawable/stu4" />
+
+            <TextView
+                android:id="@+id/teacherid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/teacher"
+                android:layout_toRightOf="@+id/teacher"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/stu1id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stu1"
+                android:layout_below="@+id/teacherid"
+                android:layout_toRightOf="@+id/stu1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/stu2id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/stu2"
+                android:layout_toRightOf="@+id/stu2"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/stu3id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/stu2id"
+                android:layout_marginTop="75dp"
+                android:layout_toRightOf="@+id/stu3"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/stu4id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/stu4"
+                android:layout_toRightOf="@+id/stu4"
+                android:text="TextView" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#111"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+</android.support.v4.widget.DrawerLayout>

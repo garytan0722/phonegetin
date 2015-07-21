@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">phonegetin</string>
+    <string-array name="items_array">
+        <item>Home</item>
+       <item>Announcement</item>
+        <item>Details</item>
+        <item>About</item>
+        <item>Setting</item>
+        <item>Log out</item>
+      </string-array>
+    
+    <string-array name="icons_array">
+        <item>@drawable/homeicon</item>
+       <item>@drawable/announcementicon</item>
+        <item>@drawable/detials</item>
+        <item>@drawable/abouticon</item>
+        <item>@drawable/settingicon</item>
+        <item>@drawable/logouticon</item>
+      </string-array>
+       <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="app_id">1412500972312144</string>
+     <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

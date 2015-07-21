@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="circular_progress_default_progress">#2a4d2b</color>
+	<color name="circular_progress_default_background">#787878</color>
+	<color name="circular_progress_default_title">#2a4d2b</color>
+	<color name="darkgreen">#218f27</color> 
+    <color name="lightgreen">#9ae3a3</color>
+     <color name="gray">#7c807c</color>
+     <color name="darkblue">#112e6b</color>
+     <color name="lightblue">#6289de</color>
+      <color name="lightred">#f288a9</color>
+       <color name="darkred">#854c5e</color>
+       <color name="lightyellow">#f2f5a4</color>
+    <color name="darkyellow">#9fa16d</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

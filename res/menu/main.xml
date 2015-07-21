@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item 
+      android:id="@+id/arrow"
+      android:title="text"
+      android:icon="@drawable/arrow"
+      android:showAsAction="ifRoom|withText" />
+</menu>
